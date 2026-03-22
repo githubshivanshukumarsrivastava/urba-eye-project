@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: pritam2004/final-project:02
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=https://untyrannized-mussily-bryan.ngrok-free.dev/
